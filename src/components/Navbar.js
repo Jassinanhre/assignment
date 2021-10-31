@@ -65,7 +65,7 @@ window.addEventListener('resize', showButton);
                     <li className="nav-btn">
                         {button ? (
                             <Link to ='/sign-up'className="btn-link">
-                                <Button   buttonStyle='btn--outline'>SIGN UP</Button>
+                                <Button   buttonStyle='btn--outline' onClick ={closeMobileMenu}>SIGN UP</Button>
                             </Link>
                         ):(
                             <Link to ='/sign-up'className="btn-link">

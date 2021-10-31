@@ -1,0 +1,24 @@
+.chart_bar{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    background-color: rgb(250, 252, 252);
+    padding: 15px;
+    opacity: 1;
+    grid-column: auto;
+}
+.line_chart{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    background-color: rgb(250, 252, 252);
+    padding: 25px;
+    opacity: 1;
+    grid-column: auto;
+}
